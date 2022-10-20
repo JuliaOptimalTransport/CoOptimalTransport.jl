@@ -5,6 +5,8 @@ Redko, I., Vayer, T., Flamary, R. and Courty, N., 2020. Co-optimal transport. ar
 
 Tran, Q.H., Janati, H., Courty, N., Flamary, R., Redko, I., Demetci, P. and Singh, R., 2022. Unbalanced CO-Optimal Transport. arXiv preprint arXiv:2205.14923.
 
+![](COOT_vs_UCOOT.png)
+
 ---
 
 Currently under construction. 
