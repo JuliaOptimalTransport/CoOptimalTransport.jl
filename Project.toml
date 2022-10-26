@@ -4,4 +4,6 @@ authors = ["Stephen Zhang <syz@syz.id.au>"]
 version = "0.1.0"
 
 [deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"
 OptimalTransport = "7e02d93a-ae51-4f58-b602-d97af76e3b33"

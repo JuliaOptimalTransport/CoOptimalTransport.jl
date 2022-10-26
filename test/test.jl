@@ -1,3 +1,4 @@
+using Revise 
 using CoOptimalTransport
 using Random
 using Plots 
@@ -5,12 +6,12 @@ using LinearAlgebra
 using Suppressor
 using ImageTransformations
 
-N = 10
+N = 50
 M = 25
-
 X1 = randn(N, M)
 X2 = X1 #[randperm(size(X1, 1)), :][:, randperm(size(X1, 2))] # without replacement
-X2 = hcat(X2, 2randn(N, 5))
+X2 = hcat(X2, 2randn(N, 10))
+X2[rand(size(X2)...) .< 0.25] .= 0
 
 unif(n) = fill(1/n, n)
 ε = 0.05
